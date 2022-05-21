@@ -1,0 +1,24 @@
+{
+  "name": "micropay",
+  "version": "1.0.0",
+  "description": "A wrapper for the Micro Pay API",
+  "main": "dist/index.js",
+  "repository": "https://github.com/daimond113/micropay-wrapper",
+  "author": {
+    "name": "daimond113",
+    "email": "contact@daimond113.com",
+    "url": "https://www.daimond113.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.4"
+  },
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  }
+}
